@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão Alura</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -12,34 +13,29 @@
 </head>
 <body>
    <div class="sidebar">
-    <nav>
-        <div>
+    <nav class="sidebar__navigation">
+        <div class="logo">
             <a href="">
-                <img src="./assets/icons/logo-spotify.png" alt="logo-spotify">
+                <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
             </a>
+        </div>
             <div>
                 <ul>
                     <li>
                         <a href="">
                             <i class="fas fa-home"></i>
-                            <span>Home</span>
+                            <span>Início</span>
                         </a>
                     </li>
-                    <li>Buscar</li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-search"></i>
+                            <span>Buscar</span>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
    </div>
-   
-    <main>
-        <section>
-            <h2>Bem-vindo ao Spotify Imersão Alura</h2>
-            <p>Explore a música como nunca antes!</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Spotify Imersão Alura. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
